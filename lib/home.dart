@@ -43,11 +43,6 @@ class _HomeState extends State<Home> {
             Container(
               width: double.infinity,
               height: double.infinity,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.only(
-                    bottomRight: Radius.circular(10),
-                    bottomLeft: Radius.circular(10)),
-              ),
             ),
             Container(
               width: double.infinity,
