@@ -49,11 +49,6 @@ class _ProfilState extends State<Profil> {
             Container(
               width: double.infinity,
               height: double.infinity,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.only(
-                    bottomRight: Radius.circular(10),
-                    bottomLeft: Radius.circular(10)),
-              ),
             ),
             Container(
               width: double.infinity,
