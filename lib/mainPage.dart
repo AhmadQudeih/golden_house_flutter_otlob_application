@@ -19,12 +19,14 @@ class _FirstState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: Container(
-        decoration: BoxDecoration(color: Color(0xff5a5a65),
-        
+        decoration: BoxDecoration(
+          color: Color(0xff5a5a65),
         ),
-
         child: ClipRRect(
-          borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20)),
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(20),
+            topRight: Radius.circular(20),
+          ),
           child: BottomNavigationBar(
             backgroundColor: Color(0xff2E2E3C),
             currentIndex: currentTndex,
@@ -36,7 +38,8 @@ class _FirstState extends State<MainPage> {
             items: [
               BottomNavigationBarItem(
                   icon: Icon(Icons.person_2_rounded), label: 'حسابي'),
-              BottomNavigationBarItem(icon: Icon(Icons.home_rounded), label: 'الرئيسية'),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.home_rounded), label: 'الرئيسية'),
             ],
             type: BottomNavigationBarType.fixed,
             selectedLabelStyle: TextStyle(
