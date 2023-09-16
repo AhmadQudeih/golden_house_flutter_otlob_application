@@ -364,7 +364,10 @@ class _HomeState extends State<Home> {
                     color: Color(0xff6F6F79),
                     borderRadius: BorderRadius.circular(8),
                     boxShadow: [
-                      BoxShadow(offset: Offset(0, 3), blurRadius: 5)
+                      BoxShadow(
+                          offset: Offset(0, 3),
+                          blurRadius: 5,
+                          color: Colors.black.withOpacity(0.5))
                     ]),
                 height: 65,
                 child: Row(

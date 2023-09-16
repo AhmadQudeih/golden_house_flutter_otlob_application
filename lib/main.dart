@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:golden_house_flutter_otlob_application/asdf.dart';
 import 'package:golden_house_flutter_otlob_application/firstPage.dart';
 import 'package:golden_house_flutter_otlob_application/mainPage.dart';
 
