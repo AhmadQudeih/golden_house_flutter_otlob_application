@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
         textDirection: TextDirection.rtl,
         child: Stack(
           children: [
-            Container(
+            SizedBox(
               width: double.infinity,
               height: double.infinity,
             ),
@@ -215,7 +215,7 @@ class _HomeState extends State<Home> {
                                   ),
                                 ),
                               ),
-                              Container(
+                              SizedBox(
                                 height: 22,
                                 width: 77,
                                 child: ElevatedButton(
