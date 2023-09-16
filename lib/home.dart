@@ -435,19 +435,6 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-            Positioned(
-              bottom: 0,
-              right: 0,
-              left: 0,
-              child: Container(
-                height: 10,
-                decoration: BoxDecoration(
-                    color: Color(0xff2E2E3C),
-                    borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(15),
-                        topRight: Radius.circular(15))),
-              ),
-            ),
           ],
         ),
       ),
